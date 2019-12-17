@@ -42,7 +42,7 @@ Develop Environment:
 2. Epochs is Repeat count.
 3. Result Demonstrate the nature of overfitting. Training accuracy increased linearly, but verification accuracy stopped at a certain position. While training losses continue to decline, validation losses also stopped at some point.
 
-## Data augmentation
+## [Data augmentation](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam1.ipynb)
 #### Data pre-processing: 
 1. Read data from directory: When data is read from a directory, the data augmentation technique is used to transform the data.
 2. Image conversion method
@@ -60,19 +60,26 @@ Develop Environment:
 2. Overfit disappears due to data propagation and dropout. Training and validation show similar curves.
 
 ## Use pre-trained network(Feature extraction)
-#### Generate model:
-1. Use pre-trained convolution layer`s predict function to extract features.
-2. The extracted feature is converted into a 1D vector to enter the fully connected layer.
-3. Use dropout for overfitting. 
-#### Result of model:
+#### [Use pre-trained convolution layer predict function to extract features](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam1.ipynb)
+###### Generate model: 
+1. The extracted feature is converted into a 1D vector to enter the fully connected layer.
+2. Use dropout for overfitting. 
+###### Result of model:
 - High accuracy has been reached, but shows overfit characteristics.
-#### Generate model:
-1. Replace the convolution layer with pre-trained one.
-2. Frozen convolution layer: Prevent weights from being updated while training.
-3. Enter training data with data augmentation method. 
-#### Result of model:
+
+####  [Replace the convolution layer with pre-trained one](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam1.ipynb)
+###### Generate model:
+1. Frozen convolution layer: Prevent weights from being updated while training.
+2. Enter training data with data augmentation method. 
+###### Result of model:
 - Overfitting has been significantly reduced.
-## Use pre-trained network(Fine tune)
+
+## [Use pre-trained network(Fine tune)](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam1.ipynb)
+#### Generate model:
+Fine tune only the top two or three layers of the convolution layer.
+#### Result of model:
+Overfitting has been significantly reduced.
+
 
 
 
