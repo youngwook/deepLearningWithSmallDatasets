@@ -19,10 +19,10 @@ Develop Environment:
   - Anaconda distribution of python, keras, tensorflow, os, shutil.
   
 ## Datasets
-#### Datasets: web site [Kaggle](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data). 
+#### Datasets: web site [Kaggle](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data) 
 - Training data: 25000 image.
 - Test data: 12500 image. 
-#### Datasets [pre-processing ](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam1.ipynb).
+#### Datasets [pre-processing ](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam1.ipynb)
 - make directories to store the data get from original datasets of kaggle.
 - Training data 2000 (1000 cats, and dogs each), Test data 1000 and Validation data 1000.
 
