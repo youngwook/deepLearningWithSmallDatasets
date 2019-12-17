@@ -60,21 +60,21 @@ Develop Environment:
 2. Overfit disappears due to data propagation and dropout. Training and validation show similar curves.
 
 ## Use pre-trained network(Feature extraction)
-#### [Use pre-trained convolution layer predict function to extract features](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam1.ipynb)
+#### [Use pre-trained convolution layer predict function to extract features](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam4.ipynb)
 ###### Generate model: 
 1. The extracted feature is converted into a 1D vector to enter the fully connected layer.
 2. Use dropout for overfitting. 
 ###### Result of model:
 - High accuracy has been reached, but shows overfit characteristics.
 
-####  [Replace the convolution layer with pre-trained one](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam1.ipynb)
+####  [Replace the convolution layer with pre-trained one](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam5.ipynb)
 ###### Generate model:
 1. Frozen convolution layer: Prevent weights from being updated while training.
 2. Enter training data with data augmentation method. 
 ###### Result of model:
 - Overfitting has been significantly reduced.
 
-## [Use pre-trained network(Fine tune)](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam1.ipynb)
+## [Use pre-trained network(Fine tune)](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam6.ipynb)
 #### Generate model:
 Fine tune only the top two or three layers of the convolution layer.
 #### Result of model:
