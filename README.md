@@ -26,7 +26,7 @@ Develop Environment:
 - make directories to store the data get from original datasets of kaggle.
 - Training data 2000 (1000 cats, and dogs each), Test data 1000 and Validation data 1000.
 
-## Train data with a small dataset without using any regulatory measures to identify overfitting
+## [Train data with a small dataset without using any regulatory measures to identify overfitting](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/CNN-cat-dog-exam2.ipynb)
 #### Data pre-processing(Read data from directory): 
 1.The data is saved as a JPEG file in the folder and must be read.
 2. Decode JPEG as RGB pixel value
@@ -42,7 +42,7 @@ Develop Environment:
 2. Epochs is Repeat count.
 3. Result Demonstrate the nature of overfitting. Training accuracy increased linearly, but verification accuracy stopped at a certain position. While training losses continue to decline, validation losses also stopped at some point.
 
-## [Data augmentation](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/Database-cat-dog-exam1.ipynb)
+## [Data augmentation](https://github.com/youngwook/deepLearningWithSmallDatasets/blob/master/CNN-cat-dog-exam3.ipynb)
 #### Data pre-processing: 
 1. Read data from directory: When data is read from a directory, the data augmentation technique is used to transform the data.
 2. Image conversion method
