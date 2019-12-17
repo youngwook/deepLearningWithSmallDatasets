@@ -22,10 +22,13 @@ Develop Environment:
 #### Datasets: web site [Kaggle](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data). 
 - Training data: 25000 image.
 - Test data: 12500 image. 
-#### Datasets pre-processing
-Training data 2000 (1000 cats, and dogs each)
-Test data 1000
-Validation data 1000
+#### Datasets [pre-processing ]().
+- Training data 2000 (1000 cats, and dogs each), Test data 1000 and Validation data 1000.
+1.The data is saved as a JPEG file in the folder and must be read.
+2. Decode JPEG as RGB pixel value
+3. Switched image size to 150 * 150. 
+4. Converts to a floating point tensor and scales the pixel value from 0 to 255 to a scale of 0 to 1.
+ 
 note: Using Python libraries (os, shutil) to create storage, directory of image file and transfer data. 
 
 
