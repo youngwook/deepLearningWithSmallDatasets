@@ -1,12 +1,10 @@
-# deepLearningWithSmallDatasets
-lean how to train small Datasets with CNN of deep learning
+# Deep Learning With Small Datasets
+lean how to train small Datasets with CNN of Deep Learning
 # Training Options
 1. Data augmentation: it is a method of generating more training data from existing training samples. 
 2. Use pre-trained network:it is generally pre-trained and stored networks of large data sets for large-scale image classification problems.
-
-  * Feature extraction with pre-trained network
-  * Fine tune your pre-trained network
-
+  1. Feature extraction with pre-trained network
+  2. Fine tune your pre-trained network
 ## Environment Requirements
 #### Using Virtual Machine
 Develop Environment:
@@ -17,14 +15,28 @@ Develop Environment:
 - Software: 
   - tensorflow(CPU)
   - pip: python package installer
-  - wget: tool to download sources from url
 - Libraries:
-  - keras, os, shutil
+  - Anaconda distribution of python, keras, tensorflow, os, shutil.
   
 ## Datasets
-### Datasets: web site Kaggle. 
-#### Training data: 25000 image.
-#### Test data: 12500 image. 
+#### Datasets: web site [Kaggle](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data). 
+- Training data: 25000 image.
+- Test data: 12500 image. 
+#### Datasets pre-processing
+Training data 2000 (1000 cats, and dogs each)
+Test data 1000
+Validation data 1000
+note: Using Python libraries (os, shutil) to create storage, directory of image file and transfer data. 
+
+
+## Data augmentation
+#### Image conversion method : 
+- Photo rotation : rotation_range is used to rotate pictures randomly.
+- Horizontally and vertically shift photos : width_shift_range, height_shift_range are used to shift photos. 
+- shearing transformation: shear randomly. 
+- Enlarge photo : zoom_range is uded to enlarge photos randomly. 
+- Flip image horizontally : horizontal_flip is used to flip image horizontally. 
+- Pixel fill : fill_mode is used to specify how to fill the empty space due to rotation or horizontal / vertical movement. 
 
 
 
